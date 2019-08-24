@@ -63,8 +63,8 @@ class Toplevel1:
         self.Button1.place(relx=0.417, rely=0.844, height=51, width=94)
         self.Button1.configure(text='''Submit''',command=self.submit)
         self.Button2 = tk.Button(top)
-        self.Button2.place(relx=0.90, rely=0.1, height=51, width=94)
-        self.Button2.configure(text='''Submit''',command=fetch_db)
+        self.Button2.place(relx=0.60, rely=0.844, height=51, width=94)
+        self.Button2.configure(text='''Show Content''',command=fetch_db)
 
         self.Entry1 = tk.Entry(top)
         self.Entry1.place(relx=0.483, rely=0.111,height=33, relwidth=0.443)
